@@ -18,10 +18,11 @@ and regression respectively
 
 ## Program:
 ```
-/*
+
 Program to implement random classification.
 Developed by   :Sangamitra SD
 RegisterNumber :  212219040134
+
 import matplotlib.pyplot as plt
 from sklearn import datasets
 X,y = datasets.make_blobs(n_samples=100,n_features=2,
@@ -32,8 +33,9 @@ plt.plot(X[:,0][y==1], X[:,1][y==1],'bo')
 plt.xlabel("Feature 1")
 plt.ylabel("Feaure 2")
 plt.title("Random Classification Data with 2 classes")
-/*
+
 ```
+
 
 ## Output:
 ![image](https://user-images.githubusercontent.com/106137647/169959933-85e85901-e541-453b-a514-efb0e391cef2.png)
